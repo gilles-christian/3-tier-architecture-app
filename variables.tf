@@ -1,6 +1,6 @@
 variable "namespace" {
   description = "The project namespace to use for unique resource naming"
-  type        = gilleschristianapp
+  type        = string
 }
 
 variable "ssh_keypair" {
