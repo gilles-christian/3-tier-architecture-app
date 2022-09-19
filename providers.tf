@@ -3,4 +3,6 @@ provider "aws" {
   default_tags {
     tags = {
       Name = "gilles-christian"
+	  }
+	}
 }
